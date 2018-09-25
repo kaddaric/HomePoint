@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+}
+/*SURCHAGE COULEURS*/
+
+/*Hearder*/
+.blockHeader{
+    border-bottom: 1px solid #e5e5e5;
+}
+.borderHeader{
+    border-bottom: 3px solid #009edc;
+}
+
+/*Autosuggest*/
+.react-autosuggest__input{
+    width: 100%;
+    line-height: 2.2;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #ced4da;
+    padding-left: 1rem;
+}
+.react-autosuggest__suggestions-list{
+    position: absolute;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    z-index: 10;
+    list-style: none;
+    padding-left: 1rem;
+}
+
+/*NavBar*/
+a.nav-link:hover{
+    color:#009edc !important;
+}
+.btn-secondary{
+    background-color:#009edc !important;
+}
+.btn-secondary:hover{
+    background-color: #068abe !important;
+}
+
+/*all page*/
+
+.title{
+  text-align: center;
+  margin: 8px 0;
+  padding: 8px 0;
+}
+
+.pageContent {
+  min-height: 90vh;
+}
+
+/*Icon*/
+.__re-bulma_tag.__re-bulma_is-warning {
+    background-color:
+    #FF8800;
+} 
+
+.footer{
+    background-color: #292c2f;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    height: 10vh;
+    margin: 0;
+}
+
+/* CollabBox */
+
+.CollabBox {
+    width: 200px;
+}
+
+.CollabBox > .alert{
+    width: 100%;
+    z-index: 3;
+}
+
+.CollabBox .details {
+    width: 200px;
+}
+
+.Tag {
+    z-index: 1;
+}
+
+.alert > button.close {
+    padding: 0.5rem;
+}
+
+.availability {
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.firstAndLastNames {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.MarkerPeople {
+    display: flex;
+}
+
